@@ -59,31 +59,26 @@ $ yarn build
 All charts made with d3.js
 
 ### Area
-<br/>
 <h1 align="left">
   <img alt="chart" title="chart" src=".github/area.png" width="510px" />
 </h1>
 
 ### Bar
-<br/>
 <h1 align="left">
   <img alt="chart" title="chart" src=".github/bar.png" width="510px" />
 </h1>
 
 ### Choroplet
-<br/>
 <h1 align="left">
   <img alt="chart" title="chart" src=".github/choropleth.png" width="510px" />
 </h1>
 
 ### Map with circles
-<br/>
 <h1 align="left">
   <img alt="chart" title="chart" src=".github/mapwithcircles.png" width="510px" />
 </h1>
 
 ### Scatter Plot
-<br/>
 <h1 align="left">
   <img alt="chart" title="chart" src=".github/scatterplot.png" width="510px" />
 </h1>
