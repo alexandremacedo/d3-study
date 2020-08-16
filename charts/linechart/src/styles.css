@@ -1,0 +1,49 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.lines {
+  stroke: #000; 
+  stroke-width: 10;
+}
+
+.lines path {
+  stroke: #B9FAF8;
+  stroke-linejoin: round;
+}
+
+circle {
+  fill: #2F4550;
+}
+
+text {
+  font-size: 1.2em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.tick text {
+  fill: #635f5d;
+}
+
+.tick line {
+  stroke: #ebebeb;
+}
+
+.axis-label {
+  fill: #888888;
+  font-size: 2em;
+}
+
+.title {
+  font-size: 2em;
+  fill: #888888;
+}
+
+.line-path {
+  fill: none;
+  stroke: #B8DBD9;
+  stroke-width: 5;
+  stroke-linejoin: round;
+}

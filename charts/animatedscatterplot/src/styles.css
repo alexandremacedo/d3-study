@@ -1,0 +1,55 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+circle {
+  fill: #7880B5;
+  opacity: 0.3;
+  stroke: #635f5d;
+  transition: 0.5s;
+}
+
+circle:hover{
+  fill: #F7717D;
+  opacity: 1;
+  r: 18;
+}
+
+text {
+  font-size: 1.2em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.tick text {
+  fill: #635f5d;
+}
+
+.tick line {
+  stroke: #c0c0bb;
+}
+
+.axis-label {
+  fill: #888888;
+  font-size: 2em;
+}
+
+.title {
+  font-size: 2em;
+  fill: #888888;
+}
+
+#menus {
+  margin-top: 50px;
+  font-size: 1em;
+  text-align: center;
+}
+
+#menus select {
+  font-size: 1rem;
+}
+
+#menus select option {
+  font-size: 1rem;
+}

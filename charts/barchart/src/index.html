@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css" />
+
+  <title>Making a bar chart</title>
+</head>
+
+<body>
+  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 320"
+    preserveAspectRatio="xMidYMin meet" width="400" height="320">
+    <g preserveAspectRatio="xMidYMin meet" viewBox="0 0 400 320" transform="translate(0, 20 )">
+      <g fill="none" font-size="10" font-family="sans-serif" text-anchor="middle" class="xaxis-content"
+        box-sizing="border-box" transform="translate(0, 300)">
+        <g class="tick" opacity="1" transform="translate(104.76190476190476,0)">
+          <line stroke="currentColor" y2="6" opacity="0"></line><text fill="#999" y="9" dy="-.55em"
+            style="text-anchor: end;" dx="-.8em" font-family="Verdana, Arial, Helvetica, sans-serif"
+            transform="rotate(-90)">United States of America</text>
+        </g>
+        <g class="tick" opacity="1" transform="translate(295.23809523809524,0)">
+          <line stroke="currentColor" y2="6" opacity="0"></line><text fill="#999" y="9" dy="-.55em"
+            style="text-anchor: end;" dx="-.8em" font-family="Verdana, Arial, Helvetica, sans-serif"
+            transform="rotate(-90)">India</text>
+        </g>
+      </g>
+      <rect y="227.6024111333981" x="89.76190476190476" width="30" height="72.3975888666019" fill="#2F8E81"></rect>
+      <rect y="0" x="280.23809523809524" width="30" height="300" fill="#2D7886"></rect><text class="rectLabel"
+        y="222.6024111333981" x="89.76190476190476" dx="15" style="color: rgb(51, 51, 51); font-size: 12px;"
+        font-family="Verdana, Arial, Helvetica, sans-serif" text-anchor="middle">326767</text><text class="rectLabel"
+        y="-5" x="280.23809523809524" dx="15" style="color: rgb(51, 51, 51); font-size: 12px;"
+        font-family="Verdana, Arial, Helvetica, sans-serif" text-anchor="middle">1354052</text>
+      <line x1="0" y1="300" x2="400" y2="300" stroke="#ccd6eb" stroke-width="1"></line>
+    </g>
+  </svg>
+
+  <script src="../dist/bundle.js">
+
+
+  </script>
+</body>
+
+</html>
