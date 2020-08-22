@@ -26,6 +26,13 @@ app.get('/winequalitywhite.csv', (req, res) => {
   res.status(200).send(fs.readFileSync('./src/winequalitywhite.csv', 'utf-8'));
 })
 
+app.get('/agegroups.csv', (req, res) => {
+  res.status(200).send(fs.readFileSync('./src/agegroups.csv', 'utf-8'));
+})
+
+app.get('/fullstartrekdata.csv', (req, res) => {
+  res.status(200).send(fs.readFileSync('./src/fullstartrekdata.csv', 'utf-8'));
+})
 app.listen(3333, () => {
   console.log('🛸 Server started on port 3333!');
 });
