@@ -36,7 +36,7 @@ To clone and run this application, you'll need [Git](https://git-scm.com), [Node
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/AlexandreMacedoo/covid-19.git
+$ git clone https://github.com/AlexandreMacedoo/d3-study.git
 
 # Go into the repository
 $ cd d3-study
